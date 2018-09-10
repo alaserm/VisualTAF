@@ -18,3 +18,7 @@ Unlike other tools where you need complex XML configuration, VisualTAF allows cr
 6. Select number of parallel threads for execution
 7. Test Execution will start in Chrome Browser(s)
 8. After execution you will see comprehensive test execution report
+
+# Developing test cases
+- Open "Demo.xlsx" file in Excel, play with it
+- Check out this Youtube video for step by step instructions https://www.youtube.com/watch?v=OZywY-ZRmQM&t=9s 
