@@ -24,3 +24,4 @@ Also this framework allows you to cut your test execution time tenfold by runnin
 # Developing test cases
 - Open "Demo.xlsx" file in Excel, play with it
 - Check out this Youtube video for step by step instructions https://www.youtube.com/watch?v=OZywY-ZRmQM&t=9s 
+- need support, contact alaserm@yahoo.com
