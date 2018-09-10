@@ -24,6 +24,8 @@ UnitTests/
 *.ser
 *.xml
 *.bat
+*.conf
+*.exe
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
