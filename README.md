@@ -1,5 +1,5 @@
-# VisualTAF 
-VisualTAF is a hybrid test automation framework for rapid and easy test case creation and execution in EXCEL.
+# ExcelTAF 
+ExcelTAF is a hybrid test automation framework for rapid and easy test case creation and execution in EXCEL.
 Unlike other tools where you need complex XML configuration, VisualTAF allows creation of test cases in EXCEL by just copy/pasting instructions on one sheet and linking them to test data in another sheet.
 Also this framework allows you to cut your test execution time tenfold by running tests in parallel in 10 different browsers.
 
