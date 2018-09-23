@@ -1,15 +1,15 @@
 # ExcelTAF.js
-ExcelTAF is a hybrid test automation framework for rapid and easy test case creation and execution in EXCEL.
+ExcelTAF is a  Test Automation Framework for rapid and easy test case creation and execution in EXCEL.
 ExcelTAF allows assembly of test cases in EXCEL by just copy/pasting keywords on one sheet and linking them to test data in another sheet.
 Also this framework allows you to cut your test execution time tenfold by running tests in multiple browsers at the same time.
 
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/excellinkingtoanothersheet.png)](http://23.236.144.243/VisualTAFScreenshots/excellinkingtoanothersheet.png)
+[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/excellinkingtoanothersheet.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents.png)
 
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/mainappwindows.png)](http://23.236.144.243/VisualTAFScreenshots/mainappwindows.png)
 
 # Installation
 1. Install JRE 8 (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and Chrome browser
-2. Download & Unzip content of /target/ExcelTAF.zip file into some folder
+2. Install Chrome browser
+3. Download & Unzip content of /target/ExcelTAF.zip file into some folder
 
 # Running
 1. Start ExcelTAF.exe
