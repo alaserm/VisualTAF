@@ -15,14 +15,16 @@ Also this framework allows you to cut your test execution time **tenfold** by ru
 1. Start ExcelTAF.exe
 5. Right click on "Regression" node in left panel and choose "Run selected test set" option
 6. Select number of parallel threads for execution
-7. Test Execution will start in Browsers 
+7. Test Execution will start in Browser 
 8. After test run completes you will see comprehensive test execution report
 
 # Developing test cases
 - Doubleclick on "Demo.xlsx" node to open this file in Excel and assemble instructions
-    *you can create new Excel file to group test cases and then drag & drop this file into Test Set node*
+
+   you can create new Excel file to group test cases and then drag & drop this file into Test Set node
 - Expand "Keywords" node and doubleclick on any "**.js**" file to see how instructions are implemented in JS
-    *you can create new JS file to group keywords and then drag & drop this file into Keywords node*
+    
+    you can create new JS file to group keywords and then drag & drop this file into Keywords node
 - Expand "Page Object" node and doubleclick on any "**.js**" file to see how page object binding works
 - have question? contact **alaserm@yahoo.com**
 
