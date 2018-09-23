@@ -3,7 +3,7 @@ ExcelTAF is a  Test Automation Framework for rapid and easy test case creation a
 ExcelTAF allows assembly of test cases in EXCEL by just copy/pasting keywords on one sheet and linking them to test data in another sheet.
 Also this framework allows you to cut your test execution time tenfold by running tests in multiple browsers at the same time.
 
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/excellinkingtoanothersheet.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents.png)
+[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents.png)
 
 
 # Installation
