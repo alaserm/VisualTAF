@@ -14,8 +14,8 @@ Also this framework allows you to cut your test execution time **tenfold** by ru
 # Running
 1. Start ExcelTAF.exe
 5. Right click on "Regression" node in left panel and choose "Run selected test set" option
-6. Select number of parallel threads for execution
-7. Test Execution will start in Browser 
+6. Select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
+7. Test Execution will start with multiple browser windows (parallel execution) 
 8. After test run completes you will see comprehensive test execution report
 
 # Developing test cases
