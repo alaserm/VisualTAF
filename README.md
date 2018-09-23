@@ -20,7 +20,9 @@ Also this framework allows you to cut your test execution time **tenfold** by ru
 
 # Developing test cases
 - Doubleclick on "Demo.xlsx" node to open this file in Excel and assemble instructions
+    *you can create new Excel file to group test cases and then drag & drop this file into Test Set node*
 - Expand "Keywords" node and doubleclick on any "**.js**" file to see how instructions are implemented in JS
+    *you can create new JS file to group keywords and then drag & drop this file into Keywords node*
 - Expand "Page Object" node and doubleclick on any "**.js**" file to see how page object binding works
 - have question? contact **alaserm@yahoo.com**
 
