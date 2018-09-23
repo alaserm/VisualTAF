@@ -1,7 +1,7 @@
 # ExcelTAF.js
-ExcelTAF is a  Test Automation Framework for rapid and easy test case creation and execution in EXCEL.
-ExcelTAF allows assembly of test cases in EXCEL by just copy/pasting keywords on one sheet and linking them to test data in another sheet.
-Also this framework allows you to cut your test execution time tenfold by running your tests in multiple browsers at the same time.
+ExcelTAF is a  **T**est **A**utomation **F**ramework for rapid and easy test case creation and execution **in EXCEL**.
+ExcelTAF allows assembly of test cases in EXCEL by **just copy/pasting** keywords on one sheet and linking them to test data in another sheet.
+Also this framework allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents.png)
 
@@ -9,7 +9,7 @@ Also this framework allows you to cut your test execution time tenfold by runnin
 # Installation
 1. Install JRE 8 (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and Chrome browser
 2. Install Chrome browser (https://www.google.com/chrome/)
-3. Download & Unzip content of /target/ExcelTAF.zip file into some folder
+3. Download & Unzip content of /target/ExcelTAF.zip file (http://23.236.144.243/VisualTAF/ExcelTAF.zip) into some folder
 
 # Running
 1. Start ExcelTAF.exe
@@ -20,7 +20,7 @@ Also this framework allows you to cut your test execution time tenfold by runnin
 
 # Developing test cases
 - Doubleclick on "Demo.xlsx" node to open this file in Excel and assemble instructions
-- Expand "Keywords" node and click on any "*.js" file to see how instructions are implemented in JS
-- Expand "Page Object" node and click on any "*.js" file to see how page object binding works
-- have question? contact alaserm@yahoo.com
+- Expand "Keywords" node and doubleclick on any "**.js**" file to see how instructions are implemented in JS
+- Expand "Page Object" node and doubleclick on any "**.js**" file to see how page object binding works
+- have question? contact **alaserm@yahoo.com**
 
