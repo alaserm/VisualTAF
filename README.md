@@ -7,12 +7,12 @@ Also this framework allows you to cut your test execution time **tenfold** by ru
 
 
 # Installation
-1. Install JRE 8 (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) and Chrome browser
-2. Install Chrome browser (https://www.google.com/chrome/)
-3. Download & Unzip content of /target/ExcelTAF.zip file (http://23.236.144.243/VisualTAF/ExcelTAF.zip) into some folder
+1. You would need Chrome Browser to run demo tests (https://www.google.com/chrome/).
+2. Download ExcelTAF.zip file (https://github.com/alaserm/VisualTAF/raw/master/target/ExcelTAF.zip).
+3. Unzip content of zip file to some folder.
 
 # Running
-1. Start ExcelTAF.exe
+1. In unzipped folder run ExcelTAF.exe
 5. Right click on "Regression" node in left panel and choose "Run selected test set" option
 6. Select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
 7. Test Execution will start with multiple browser windows (parallel execution) 
