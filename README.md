@@ -26,9 +26,29 @@ It's quite simple, in each Excel file you need to have a sheet called "Instructi
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)
 
-Now let's see how to develop keywords, first we want to add on-page objects into Repository, in the left panel of the tool
-expand "Page Objects" folder and doubleclick on any file there to open it and see its structure, this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
-So once you have on-page objects you can easily create keywords (piece of code that performs certain functionality), here is example of Login keyword, if you are familiar with Selenium then you can see that in Javascript it uses Selenium WebDriver commands sendKeys() and click(), so no need to learn new things, just use Selenium commands.
+Now let's see how you add on-page objects to your scripts, in the left panel of the tool
+expand "Page Objects" folder, it acts as Object Repository, and doubleclick on any file there to open it and see its structure.
+```
+//LoginPage.js
+//Encapsulates on-page objects of Login page
+var LoginPage = {
+
+    get username() {
+        return driver.findElement(By.cssSelector("input#email"));
+    },
+
+    get password() {
+        return driver.findElement(By.cssSelector("input#password"));
+    },    
+
+    get goButton() {
+        return driver.findElement(By.cssSelector("button.btn-primary"));
+    }    
+    
+};
+```
+this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
+So once you added on-page objects you can easily create keywords (piece of code that performs certain functionality), here is example of Login keyword, if you are familiar with Selenium then you can see that in Javascript it uses Selenium WebDriver commands sendKeys() and click(), so no need to learn new things, just use Selenium commands.
 ```javascript
 var Login = {};
 Login.login = function(params) {
