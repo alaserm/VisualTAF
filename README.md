@@ -2,6 +2,8 @@
 ExcelTAF is a  **T**est **A**utomation **F**ramework for rapid and easy test case creation and execution **in EXCEL**.
 ExcelTAF allows assembly of test cases in EXCEL by **just copy/pasting** keywords on one sheet and linking them to test data in another sheet.
 Also this framework allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.
+This tool by design enforces automation best practices, so there is no "record and playback" or other features
+that are not used in REAL test automation as they make scripts unmaintainable. 
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)
 
@@ -13,18 +15,34 @@ Also this framework allows you to cut your test execution time **tenfold** by ru
 
 # Running
 1. In unzipped folder run ExcelTAF.exe
-5. Right click on "Regression" node in left panel and choose "Run selected test set" option
+5. Right click on "Regression" node in left panel and choose "Run selected test set" option to run built-in demo scripts
 6. Select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
 7. Test Execution will start with multiple browser windows (parallel execution) 
 8. After test run completes you will see comprehensive test execution report
 
 # Developing test cases
-- Doubleclick on "Demo.xlsx" node to open this file in Excel and assemble instructions
+Doubleclick on "Demo.xlsx" node to open this file in Excel and see it's structure.
+It's quite simple, in each Excel file you need to have a sheet called "Instructions", this is where you assemble test cases. Instructions sheet has "TCName", "Keyword", "Input", "ExpectedResult", "Comment" columns. In "TCName" column you give name to your test case, that's how test case starts, then in the next lines in "Keywords" column you fill in instructions and attach data to them in "Input" column, then you end test case by typing "END" in "TCNAME" column. It's better pictured in diagram below
 
-   you can create new Excel file to group test cases and then drag & drop this file into Test Set node
-- Expand "Keywords" node and doubleclick on any "**.js**" file to see how instructions are implemented in JS
-    
-    you can create new JS file to group keywords and then drag & drop this file into Keywords node
-- Expand "Page Object" node and doubleclick on any "**.js**" file to see how page object binding works
-- have question? contact **alaserm@yahoo.com**
+[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)
+
+Now let's see how to develop keywords, first we want to add on-page objects into Repository, in the left panel of the tool
+expand "Page Objects" folder and doubleclick on any file there to open it and see its structure, this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
+So once you have on-page objects you can easily create keywords (piece of code that performs certain functionality), here is example of Login keyword, if you are familiar with Selenium then you can see that in Javascript it uses Selenium WebDriver commands sendKeys() and click(), so no need to learn new things, just use Selenium commands.
+```javascript
+var Login = {};
+Login.login = function(params) {
+	
+
+        driver.get("http://23.236.144.243/TodosAUT/public/login");
+	
+        LoginPage.username.sendKeys(params.get("email"));
+        LoginPage.password.sendKeys(params.get("password"));
+        LoginPage.goButton.click();
+
+}
+```
+
+
+For any question contact **alaserm@yahoo.com**
 
