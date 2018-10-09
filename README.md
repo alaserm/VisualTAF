@@ -1,5 +1,5 @@
-# ExcelTAF
-ExcelTAF is a  **T**est **A**utomation **F**ramework for rapid and easy test case creation and execution **in EXCEL**.
+# ExcelTAF.js
+ExcelTAF.js is a  **T**est **A**utomation **F**ramework for rapid and easy test case creation and execution **in EXCEL**.
 ExcelTAF allows assembly of test cases in EXCEL by **just copy/pasting** keywords on one sheet and linking them to test data in another sheet.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool by design enforces test automation best practices, so there is no "record and playback" functionality or other features that are not used by **REAL life test automation experts** as they make scripts unmaintainable. 
@@ -46,7 +46,9 @@ var LoginPage = {
     
 };
 ```
-this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.\
+this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
+
+
 So once you added on-page objects you can easily create keywords (piece of code that performs certain functionality) in **"Keywords"** folder of the tool, here is example of Login keyword, if you are familiar with Selenium then you can see that in Javascript it uses Selenium WebDriver commands sendKeys() and click(), so no need to learn new things, just use Selenium commands.
 ```javascript
 var Login = {};
