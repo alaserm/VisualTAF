@@ -1,8 +1,8 @@
-# ExcelTAF.js
-ExcelTAF.js is a  **T**est **A**utomation **F**ramework for rapid and easy test case creation and execution **in EXCEL**.
-ExcelTAF allows assembly of test cases in EXCEL by **just copy/pasting** keywords on one sheet and linking them to test data in another sheet.
+# ExcelTAF
+ExcelTAF is a super tool for rapid and easy creation of maintainalbe test automation scripts.
+ExcelTAF allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data in from another sheets in the same workbook.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
-This tool by design enforces test automation best practices, so there is no "record and playback" functionality or other features that are not used by **REAL life test automation experts** as they make scripts unmaintainable. 
+This tool is designed to enforces **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable. 
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)
 
