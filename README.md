@@ -70,6 +70,7 @@ Login.login = function(params) {
 ```
 
 
-Become an early distributor and earn millions with this hot new product ;)
+
+Become an early distributor and earn millions with this hot new product ;)\
 For any question contact **alaserm@yahoo.com**
 
