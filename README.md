@@ -5,8 +5,8 @@ Also this tool allows you to cut your test execution time **tenfold** by running
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.\
 It supports *Selenium Grid* and local test execution.\
 It supports Angular and JQuery ajax waits.\
-**!!!New!!!** *API testing* is available now.
-**Save up to 70%** on your test script development and maintenance time.
+**!!!New!!!** *API testing* is available now.\
+**Save up to 70%** on your test automation development and maintenance time.
 
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)
