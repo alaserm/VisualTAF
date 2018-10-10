@@ -6,6 +6,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 It supports *Selenium Grid* and local test execution.\
 It supports Angular and JQuery ajax waits.\
 **!!!New!!!** *API testing* is available now.
+**Save up to 70%** on your test script development and maintenance time.
 
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)
