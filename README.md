@@ -2,7 +2,11 @@
 ExcelTAF is a simple, but powerful tool for rapid and easy creation of maintainalbe test automation scripts.
 ExcelTAF allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from another sheets in the same workbook.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
-This tool is designed to enforces **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable. 
+This tool is designed to enforces **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable. \
+It supports Selenium grid and local test execution
+It supports Angular and JQuery ajax waits
+**!!!New!!!** API testing is available now.
+
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)
 
@@ -56,6 +60,7 @@ Login.login = function(params) {
 	
 
         driver.get("http://23.236.144.243/TodosAUT/public/login");
+	waitForAngularJQueryJS();
 	
         LoginPage.username.sendKeys(params.get("email"));
         LoginPage.password.sendKeys(params.get("password"));
@@ -65,5 +70,6 @@ Login.login = function(params) {
 ```
 
 
+Become an early distributor and earn millions with this hot new product ;)
 For any question contact **alaserm@yahoo.com**
 
