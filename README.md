@@ -1,5 +1,5 @@
 # ExcelTAF
-ExcelTAF is a simple, but powerful tool for rapid and easy creation of maintainalbe test automation scripts.
+ExcelTAF is a simple, but powerful tool for rapid and easy creation of maintainable test automation scripts.
 ExcelTAF allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from another sheets in the same workbook.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.\
@@ -32,7 +32,7 @@ It's quite simple, in each Excel file you need to have a sheet called "Instructi
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)
 
 Now let's see how you add on-page objects to your scripts, in the left panel of the tool
-expand **"Page Objects"** folder, it acts as Object Repository, and doubleclick on any file there to open it and see its structure.
+expand **"Page Objects"** folder, it acts as an Object Repository, and doubleclick on any file there to open it and see its structure.
 ```javascript
 //LoginPage.js
 //Encapsulates on-page objects of Login page
