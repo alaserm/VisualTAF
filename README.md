@@ -26,7 +26,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 8. After test run completes you will see comprehensive test execution report
 
 # Developing test cases
-Doubleclick on "Demo.xlsx" node to open this file in Excel and see it's structure.
+Doubleclick on "Demo1.xlsx" node to open this file in Excel and see it's structure.
 It's quite simple, in each Excel file you need to have a sheet called "Instructions", this is where you assemble test cases. Instructions sheet has "TCName", "Keyword", "Input", "ExpectedResult", "Comment" columns. In "TCName" column you give name to your test case, that's how test case starts, then in the next lines in "Keywords" column you fill in instructions and attach data to them in "Input" column, then you end test case by typing "END" in "TCNAME" column. It's better pictured in diagram below
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)
