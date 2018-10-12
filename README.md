@@ -47,6 +47,8 @@ var LoginPage = makePageObjectsFromDescriptors(
 
 );
 
+//Then in your code you can use it as LoginPage.username.sendKeys() 
+//instead of driver.findElement(By.cssSelector("...") ).sendKeys()
 ```
 this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
 
