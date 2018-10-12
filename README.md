@@ -35,22 +35,18 @@ Now let's see how you add on-page objects to your scripts, in the left panel of 
 expand **"Page Objects"** folder, it acts as an Object Repository, and doubleclick on any file there to open it and see its structure.
 ```javascript
 //LoginPage.js
-//Encapsulates on-page objects of Login page
-var LoginPage = {
+//Encapsulates page objects of Login page
 
-    get username() {
-        return driver.findElement(By.cssSelector("input#email"));
-    },
+var LoginPage = makePageObjectsFromDescriptors(
 
-    get password() {
-        return driver.findElement(By.cssSelector("input#password"));
-    },    
+{
+	username : By.cssSelector("input#email"),
+	password : By.cssSelector("input#password"),
+	goButton : By.cssSelector("button.btn-primary")
+}
 
-    get goButton() {
-        return driver.findElement(By.cssSelector("button.btn-primary"));
-    }    
-    
-};
+);
+
 ```
 this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
 
