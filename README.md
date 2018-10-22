@@ -43,9 +43,6 @@ var LoginPage =
     username : css("input#email"),
     password : css("input#password"),
     goButton : css("button.btn-primary"),
-    
-    ErrorMessage : css("span.help-block"),
-    LoggedUserArea : css("ul.nav li.dropdown")
 }
 
 LoginPage.url = "http://23.236.144.243/TicketsAUT/public/login";
@@ -59,7 +56,7 @@ LoginPage.url = "http://23.236.144.243/TicketsAUT/public/login";
 this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
 
 
-So once you added on-page objects you can easily create keywords (keyword is a reusable function to perform common workflows in your application) in **"Keywords"** folder in the left panel, keyword can be reused many times in Excel, you just feed it with different data rows for different test cases; here is example of Login keyword
+So once you added on-page objects you can easily create keywords (keyword is a reusable function to perform common workflows in your application). Add keywords to **"Keywords"** folder in the left panel of the tool, keyword can be reused many times in Excel, you just feed it with different data rows for different test cases. here is an example of Login keyword for demo app that come with this tool.
 
 ```javascript
 var Login = {};
