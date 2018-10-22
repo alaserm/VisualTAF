@@ -38,36 +38,40 @@ expand **"Page Objects"** folder, it acts as an Object Repository, and doublecli
 //LoginPage.js
 //Encapsulates page objects of Login page
 
-var LoginPage = makePageObjectsFromDescriptors(
-
+var LoginPage = 
 {
-	username : By.cssSelector("input#email"),
-	password : By.cssSelector("input#password"),
-	goButton : By.cssSelector("button.btn-primary")
+    username : css("input#email"),
+    password : css("input#password"),
+    goButton : css("button.btn-primary"),
+    
+    ErrorMessage : css("span.help-block"),
+    LoggedUserArea : css("ul.nav li.dropdown")
 }
 
-);
+LoginPage.url = "http://23.236.144.243/TicketsAUT/public/login";
 
-//Then everywhere in your code you can just use on-page objects as LoginPage.username.sendKeys() 
-//Notice that all object recognition properties like "input#email" stored only here for maintainability
+
+
+//Then in your code you can  use on-page objects like typeText(LoginPage.username,"text") or click(LoginPage.goButton)
+//Notice that all object recognition properties like "input#email" stored only in one file for maintainability
 
 ```
 this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
 
 
-So once you added on-page objects you can easily create keywords (piece of code that performs certain functionality) in **"Keywords"** folder of the tool, keyword can be reused many times in Excel, you just feed it with different data rows for different test cases; here is example of Login keyword, if you are familiar with Selenium then you can see that in Javascript it uses Selenium WebDriver commands sendKeys() and click(), so no need to learn new things, just use Selenium commands.
+So once you added on-page objects you can easily create keywords (keyword is a reusable function to perform common workflows in your application) in **"Keywords"** folder in the left panel, keyword can be reused many times in Excel, you just feed it with different data rows for different test cases; here is example of Login keyword
+
 ```javascript
 var Login = {};
 Login.login = function(params) {
 	
-
-        driver.get("http://23.236.144.243/TodosAUT/public/login");
-	waitForAngularJQueryJS();
-	
-        LoginPage.username.sendKeys(params.get("email"));
-        LoginPage.password.sendKeys(params.get("password"));
-        LoginPage.goButton.click();
-
+    navigate(LoginPage.url);
+    waitForAngularJQueryJS();
+    
+    typeText(LoginPage.username, params.get("email") );
+    typeText(LoginPage.password, params.get("password") );
+    
+    click(LoginPage.goButton);
 }
 ```
 
