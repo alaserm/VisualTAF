@@ -72,7 +72,43 @@ Login.login = function(params) {
 }
 ```
 
+Below you can see a list of built-in functions that come with my tool, that's all you need for successful test automation. 
 
+```javascript
+waitForAngularJQueryJS()
+waitForObjectToBecomeVisible(obj, timeoutSecs )
+navigate(to)
+
+css(selector)
+xpath(selector)
+findObject(desc)
+
+isObjectPresent(obj)
+isObjectVisible(obj)
+isObjectEnabled(obj)
+
+clearText(obj)
+typeText(obj, text)
+select(obj, visibleText)
+click(obj)
+
+getText(obj)
+getValue(obj)
+getAttribute(obj, attrName)
+getCssValue(obj, valName)
+
+assertCurrentPageUrl(url)
+assertObjectPresent(obj)
+assertObjectVisible(obj)
+assertObjectText( text, obj)
+assertObjectRegExp( text, obj)
+assertCssValue(valName, val, obj )
+
+getAlertText()
+acceptAlert()
+dismissAlert()
+ 
+```
 
 Become an early distributor and earn millions with this hot new product ;)\
 For any question contact **alaserm@yahoo.com**
