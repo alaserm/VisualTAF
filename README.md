@@ -11,7 +11,11 @@ This tool is designed to enforce **test automation best practices**, so there is
 - **Save up to 70%** on your test automation development and maintenance time.
 
 
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents3.png)
+[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
+
+After execution you get step-by-step comprehensive report with screenshots
+[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/report.png)](http://23.236.144.243/VisualTAFScreenshots/report.png)
+
 
 
 # Installation
