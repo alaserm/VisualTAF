@@ -14,7 +14,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
 
 
-## After execution you get step-by-step comprehensive report with graph and screenshots
+### After execution you get step-by-step drilldown report with graph and screenshots
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/report.png)](http://23.236.144.243/VisualTAFScreenshots/report.png)
 
 
