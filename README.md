@@ -45,17 +45,19 @@ expand **"Page Objects"** folder, it acts as an Object Repository, and doublecli
 
 var LoginPage = 
 {
-    username : css("input#email"),
-    password : css("input#password"),
-    goButton : css("button.btn-primary"),
+    email : selectorAndDescription("input#email", "Email address field"),
+    password : selectorAndDescription("input#password", "Password field"),
+    LoginButton : selectorAndDescription("button.btn-primary", "Login Button"),
+    
+    ErrorMessage : selectorAndDescription("span.help-block", "Error Message Area"),
 }
 
 LoginPage.url = "http://23.236.144.243/TicketsAUT/public/login";
 
-
-
-//Then in your code you can  use on-page objects like typeText(LoginPage.username,"text") or click(LoginPage.goButton)
-//Notice that all object recognition properties like "input#email" stored only in one file for maintainability
+//Then in your code you can  use on-page objects like typeText(LoginPage.email, "alaserm@yahoo.com")
+// or click(LoginPage.LoginButton)
+//Notice that all object recognition properties like "input#email" stored only  
+//in one xxxxPage file, it's for easy script maintainability later when application changes
 
 ```
 this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
