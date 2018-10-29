@@ -8,17 +8,11 @@ This tool is designed to enforce **test automation best practices**, so there is
 - Automatically takes screeenshots upon test failure for easy bug tracking.
 - CI/CD integration.
 - **!!!New!!!** *API testing* is available now.
+- **!!!New!!!** Enterprise level reporting with drill down to step level, charts, screenshots and more
 - **Save up to 70%** on your test automation development and maintenance time.
 
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
-
-
-
-### **!!!New!!!** Enterprise level reporting with step by step visibility and graph
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/report.png)](http://23.236.144.243/VisualTAFScreenshots/report.png)
-
-
 
 # Installation
 1. You would need Chrome Browser if you want to run included demo tests (https://www.google.com/chrome/).
@@ -31,6 +25,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 6. Select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
 7. Test Execution will start with multiple browser windows (parallel execution) 
 8. After test run completes you will see comprehensive test execution report
+
+[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/report.png)](http://23.236.144.243/VisualTAFScreenshots/report.png)
 
 # Developing test cases
 Doubleclick on "Demo1.xlsx" node to open this file in Excel and see it's structure.
