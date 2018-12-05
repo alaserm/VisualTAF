@@ -3,6 +3,7 @@ ExcelTAF is a simple, but powerful tool for rapid and easy creation of maintaina
 ExcelTAF allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from another sheets in the same workbook.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
+- With this tool you can use Selenium from JavaScript, no Java learning required.
 - It supports *Selenium Grid* and local test execution.
 - It supports Angular and JQuery ajax waits.
 - Automatically takes screeenshots upon test failure for easy bug tracking.
