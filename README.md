@@ -4,7 +4,7 @@ JSSelenium allows assembly of test cases in EXCEL by **copy/pasting** keywords i
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
 - With this tool you can use Selenium **from JavaScript**, which is much easier than learning complex Java or C#.
-- **No need** to install Node.js, Java or other dependencies, the tool is self contained, just download it and start coding.
+- **No need** to install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set.
 - It supports *Selenium Grid* and local test execution.
 - It supports Angular and JQuery ajax waits.
 - Automatically takes screeenshots upon test failure for easy bug tracking.
@@ -23,8 +23,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 # Running
 1. In unzipped folder run ExcelTAF.exe
-2. Right click on "Regression" node in left panel and choose "Run selected test set" option to run built-in demo scripts
-3. Select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
+2. Right click on "Regression" in tool left panel and in popped up context menu click "Run selected test set" option to run built-in demo scripts
+3. Then select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
 4. Test Execution will start with multiple browser windows (parallel execution) 
 5. After test run completes you will see comprehensive test execution report
 
