@@ -80,7 +80,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		None.
 		
 	**ExlJS:**<br/>
-	[![Reporting compared](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)(http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)
+[![Reporting compared](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)(http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)
 	
 
 4. Parallel test execution
