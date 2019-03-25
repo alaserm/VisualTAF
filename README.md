@@ -15,8 +15,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 # Comparison to Selenium
 
-1. Filling form data<br>
-	Selenium:<br>
+1. ## Filling form data<br>
+	**Selenium:<br>**
 	```javascript
 		void fillUserRegistrationForm(String firstName, String lastName, String address)
 		{
@@ -29,7 +29,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 				
 		}
 	```		
-	ExlJS:
+	**ExlJS**:
+	```javascript
 		function fillUserRegistrationForm(params)
 		{
 			typeText(UserRegistratioPage.firstName, params.get("FirstName") );
@@ -37,6 +38,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 			typeText(UserRegistratioPage.address, params.get("Address") );
 				
 		}
+	```
 
 2. Waiting for Ajax, JQuery, Angualar, React full page load
 
