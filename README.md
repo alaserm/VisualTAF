@@ -1,5 +1,5 @@
 # ExlJS
-ExlJS is a simple, but powerful tool for rapid and easy creation of **MAINTAINABLE** test automation scripts.
+ExlJS is a simple, but powerful tool for rapid and easy creation of **MAINTAINABLE** keyward and data driven test automation scripts.
 ExlJS allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from another sheets in the same workbook.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
@@ -13,7 +13,38 @@ This tool is designed to enforce **test automation best practices**, so there is
 - **!!!New!!!** Enterprise level reporting with drill down to step level, charts, screenshots and more
 - **Save up to 70%** on your test automation development and maintenance time.
 
+# Comparison to Selenium
 
+1. Filling form data
+	Selenium:
+		void fillUserRegistrationForm(String firstName, String lastName, String address)
+		{
+			if( firstName!= null )
+				driver.findElement(By.css("#FirstName")).sendKeys(firstName);
+			if( lastName!= null )
+				driver.findElement(By.css("#LastName")).sendKeys(lastName);
+			if( address!= null )
+				driver.findElement(By.css("#Address")).sendKeys(address);
+				
+		}
+	ExlJS:
+		function fillUserRegistrationForm(params)
+		{
+			typeText(UserRegistratioPage.firstName, params.get("FirstName") );
+			typeText(UserRegistratioPage.lastName, params.get("LastName") );
+			typeText(UserRegistratioPage.address, params.get("Address") );
+				
+		}
+
+2. Waiting for Ajax, JQuery, Angualar, React full page load
+
+4. Checkpoints	
+3. Reporting
+
+4. Multithreading
+
+
+	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
 
 # Installation
