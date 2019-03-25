@@ -5,7 +5,7 @@ Also this tool allows you to cut your test execution time **tenfold** by running
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
 - With this tool you can use Selenium **from JavaScript**, which is much easier than learning complex Java or C#.
 - **No need** to install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set.
-- It supports *Selenium Grid* and local test execution.
+- It supports test exection on *Selenium Grid nodes* and/or local machine.
 - It supports Angular and JQuery ajax waits.
 - Automatically takes screeenshots upon test failure for easy bug tracking.
 - CI/CD integration.
@@ -15,8 +15,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 # Comparison to Selenium
 
-1. ## Filling form data<br>
-	**Selenium:<br>**
+1. ## Filling form data<br/>
+	**Selenium:**<br/>
 	```javascript
 		void fillUserRegistrationForm(String firstName, String lastName, String address)
 		{
@@ -29,7 +29,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 				
 		}
 	```		
-	**ExlJS**:
+	**ExlJS:**<br/>
 	```javascript
 		function fillUserRegistrationForm(params)
 		{
@@ -40,9 +40,41 @@ This tool is designed to enforce **test automation best practices**, so there is
 		}
 	```
 
-2. Waiting for Ajax, JQuery, Angualar, React full page load
 
-4. Checkpoints	
+2. ## Waiting for Ajax, JQuery, Angualar, React page full load<br>
+	**Selenium:**<br/>
+	```javascript
+		//OMG!
+		FluentWait<By> fluentWait = new FluentWait<By>(By.tagName("TEXTAREA"));
+		fluentWait.pollingEvery(100, TimeUnit.MILLISECONDS);
+		fluentWait.withTimeout(1000, TimeUnit.MILLISECONDS);
+		fluentWait.until(new Predicate<By>() {
+		    public boolean apply(By by) {
+			try {
+			    return browser.findElement(by).isDisplayed();
+			} catch (NoSuchElementException ex) {
+			    return false;
+			}
+		    }
+		});
+	```		
+	**ExlJS:**<br/>
+	```javascript
+		//one line
+		waitForAngularJQueryJS();
+	```
+
+3. ## Checkpoints/element verification <br>
+	**Selenium:**</br>
+	```javascript
+		if( textToVerify!= null) 
+			assertTrue( driver.findElement(By.id("CustomerId")).getText(), textToVerify) );
+	```		
+	**ExlJS:**<br/>
+	```javascript
+	
+		assertObjectText( textToVerify, UserRegistratioPage.customerId );
+	```
 3. Reporting
 
 4. Multithreading
