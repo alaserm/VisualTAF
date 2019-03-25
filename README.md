@@ -14,31 +14,18 @@ This tool is designed to enforce **test automation best practices**, so there is
 - **Save up to 70%** on your test automation development and maintenance time.
 
 # Comparison to Selenium
-
-1. ## Filling form data<br/>
+1. ## Data-driving keywords<br/>
 	**Selenium:**<br/>
 	```javascript
-		void fillUserRegistrationForm(String firstName, String lastName, String address)
-		{
-			if( firstName!= null )
-				driver.findElement(By.css("#FirstName")).sendKeys(firstName);
-			if( lastName!= null )
-				driver.findElement(By.css("#LastName")).sendKeys(lastName);
-			if( address!= null )
-				driver.findElement(By.css("#Address")).sendKeys(address);
-				
-		}
+		//hardcoded values
+		driver.findElement(By.css("#FirstName")).sendKeys("George");
+		driver.findElement(By.css("#LastName")).sendKeys("Orwell");
+		driver.findElement(By.css("#Address")).sendKeys("22 Main st");
 	```		
 	**ExlJS:**<br/>
-	```javascript
-		function fillUserRegistrationForm(params)
-		{
-			typeText(UserRegistratioPage.firstName, params.get("FirstName") );
-			typeText(UserRegistratioPage.lastName, params.get("LastName") );
-			typeText(UserRegistratioPage.address, params.get("Address") );
-				
-		}
-	```
+	Data seemlessly driven to keyword from Excel sheet.
+	[![Data driving compared](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared.png)](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared.png)
+
 
 
 2. ## Waiting for Ajax, JQuery, Angualar, React page full load<br>
@@ -60,11 +47,37 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```		
 	**ExlJS:**<br/>
 	```javascript
-		//one line
+		//built-in
 		waitForAngularJQueryJS();
 	```
+3. ## Filling form data<br/>
+	**Selenium:**<br/>
+	```javascript
+		void fillUserRegistrationForm(String firstName, String lastName, String address)
+		{
+			if( firstName!= null )
+				driver.findElement(By.css("#FirstName")).sendKeys(firstName);
+			if( lastName!= null )
+				driver.findElement(By.css("#LastName")).sendKeys(lastName);
+			if( address!= null )
+				driver.findElement(By.css("#Address")).sendKeys(address);
+				
+		}
+	```		
+	**ExlJS:**<br/>
+	```javascript
+		function fillUserRegistrationForm(params)
+		{
+			//auto searches for element and fills in text if it's not null
+			typeText(UserRegistratioPage.firstName, params.get("FirstName") );
+			typeText(UserRegistratioPage.lastName, params.get("LastName") );
+			typeText(UserRegistratioPage.address, params.get("Address") );
+				
+		}
+	```
 
-3. ## Checkpoints/element verification <br/>
+
+4. ## Checkpoints/element verification <br/>
 	**Selenium:**</br>
 	```javascript
 		if( textToVerify!= null) 
@@ -75,7 +88,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		assertObjectText( textToVerify, UserRegistratioPage.customerId );
 	```		
 	
-4. ## Reporting <br>
+5. ## Reporting <br>
 	**Selenium:**<br/>
 	Virtually None.<br/>
 		
@@ -111,8 +124,9 @@ This tool is designed to enforce **test automation best practices**, so there is
 	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)
 
 
-	
+<!---	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
+-->
 
 # Installation
 1. You would need Chrome Browser if you want to run included demo tests (https://www.google.com/chrome/).
