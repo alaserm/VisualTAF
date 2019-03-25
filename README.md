@@ -77,9 +77,10 @@ This tool is designed to enforce **test automation best practices**, so there is
 	
 4. ## Reporting <br>
 	**Selenium:**<br/>
-		None.<br/>
+		Virtually None.<br/>
 		
 	**ExlJS:**<br/>
+		Each single step is recorded in HTML report indicating what field was clicked/filled and with what data.
 	[![Reporting compared](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)
 	
 
