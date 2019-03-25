@@ -64,7 +64,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		waitForAngularJQueryJS();
 	```
 
-3.## Checkpoints/element verification <br/>
+3. ## Checkpoints/element verification <br/>
 	**Selenium:**</br>
 	```javascript
 		if( textToVerify!= null) 
@@ -75,7 +75,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		assertObjectText( textToVerify, UserRegistratioPage.customerId );
 	```		
 	
-4.## Reporting <br>
+4. ## Reporting <br>
 	**Selenium:**<br/>
 		None.<br/>
 		
