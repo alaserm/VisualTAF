@@ -77,14 +77,38 @@ This tool is designed to enforce **test automation best practices**, so there is
 	
 4. ## Reporting <br>
 	**Selenium:**<br/>
-		Virtually None.<br/>
+	Virtually None.<br/>
 		
 	**ExlJS:**<br/>
-		Each single step is recorded in HTML report indicating what field was clicked/filled and with what data.
+	Each single step is **automatically** reported in HTML report indicating what field was clicked/filled-in and with what data. Screenshots are also taken automatically to see what was happening in web application while test was running.
 	[![Reporting compared](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)
 	
 
-4. Parallel test execution
+5.  ## Parallel test execution <br>
+	**Selenium:**</br>
+	```javascript
+		new Thread() {
+
+		    @Override
+		    public void run() {
+			Test1();
+		    }
+
+		}.start();
+		...
+		new Thread() {
+
+		    @Override
+		    public void run() {
+			TestN();
+		    }
+
+		}.start();
+		
+	```		
+	**ExlJS:**<br/>
+	Just select # of parallel threads in the tool
+	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)
 
 
 	
