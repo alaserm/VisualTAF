@@ -15,8 +15,9 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 # Comparison to Selenium
 
-1. Filling form data
-	Selenium:
+1. Filling form data<br>
+	Selenium:<br>
+	```javascript
 		void fillUserRegistrationForm(String firstName, String lastName, String address)
 		{
 			if( firstName!= null )
@@ -27,6 +28,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 				driver.findElement(By.css("#Address")).sendKeys(address);
 				
 		}
+	```		
 	ExlJS:
 		function fillUserRegistrationForm(params)
 		{
