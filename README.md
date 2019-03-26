@@ -128,11 +128,11 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 6.  ## Deployment and learning curve <br>
 	**Selenium:**</br>
-	Need to download Java, Eclipse or Netbeans IDE, selenium jars, chromedriver.exe, compile tests to jar.
+	Need to download Java, Eclipse or Netbeans IDE, selenium jars, chromedriver.exe, compile tests to jar.<br/>
 	Learning curve: need to learn Java classes, add strong types to every parameter, learn JDBC for data feed.
 	
 	**ExlJS:**<br/>
-	Just unpack downloaded zip file, everything is included and start running tests immediately, no compilation required.
+	Just unpack downloaded zip file, everything is included, and start running tests immediately, no compilation required!<br/>
 	Learning curve: 1 day max to learn how to create Javascript functions and how to copy/paste rows in Excel :-), that's it.
 <!---	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
