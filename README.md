@@ -1,5 +1,5 @@
 # ExlJS
-ExlJS is a simple, but powerful tool for rapid and easy creation of **MAINTAINABLE** keyward and data driven test automation scripts.
+ExlJS is a simple, but powerful tool for rapid and easy creation of **MAINTAINABLE** keyword and data driven test automation scripts.
 ExlJS allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from another sheets in the same workbook.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
@@ -16,6 +16,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 # Comparison to Selenium
 1. ## Data-driving keywords<br/>
 	**Selenium:**<br/>
+	Either hardcoded values or have to right JDBC code to fetch it from data storage.
 	```javascript
 		//hardcoded values
 		driver.findElement(By.css("#FirstName")).sendKeys("George");
@@ -47,8 +48,9 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```		
 	**ExlJS:**<br/>
 	```javascript
-		//built-in
 		waitForAngularJQueryJS();
+		//OR
+		waitForObjectToBecomeVisible(UserRegistratioPage.textArea, 30);
 	```
 3. ## Filling form data<br/>
 	**Selenium:**<br/>
@@ -68,7 +70,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```javascript
 		function fillUserRegistrationForm(params)
 		{
-			//auto searches for element and fills in text if it's not null
+			//auto searches for element and fills in text straight from Excel data row
 			typeText(UserRegistratioPage.firstName, params.get("FirstName") );
 			typeText(UserRegistratioPage.lastName, params.get("LastName") );
 			typeText(UserRegistratioPage.address, params.get("Address") );
@@ -99,6 +101,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 5.  ## Parallel test execution <br>
 	**Selenium:**</br>
+	You would need to create new Threads by yourself in your Java code
 	```javascript
 		new Thread() {
 
@@ -120,10 +123,17 @@ This tool is designed to enforce **test automation best practices**, so there is
 		
 	```		
 	**ExlJS:**<br/>
-	Just select # of parallel threads in the tool
+	Just type # of parallel threads for test execution in the tool!
 	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)
 
-
+6.  ## Deployment and learning curve <br>
+	**Selenium:**</br>
+	Need to download Java, Eclipse or Netbeans IDE, selenium jars, chromedriver.exe, compile tests to jar.
+	Learning curve: need to learn Java classes, add strong types to every parameter, learn JDBC for data feed.
+	
+	**ExlJS:**<br/>
+	Just unpack downloaded zip file, everything is included and start running tests immediately, no compilation required.
+	Learning curve: 1 day max to learn how to create Javascript functions and how to copy/paste rows in Excel :-), that's it.
 <!---	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
 -->
