@@ -24,7 +24,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		driver.findElement(By.css("#Address")).sendKeys("22 Main st");
 	```		
 	**ExlJS:**<br/>
-	Data seemlessly driven to keyword from Excel sheet.
+	Data seemlessly driven to keyword from Excel rows. It's super easy to create and maintain test data in Excel.
 	[![Data driving compared](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png)](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png)
 
 
