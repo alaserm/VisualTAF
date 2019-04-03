@@ -16,7 +16,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 # Comparison to Selenium
 1. ## Data-driving keywords<br/>
 	**Selenium:**<br/>
-	Either hardcoded values or have to write JDBC code to fetch it from data storage.
+	Either hardcoded test data or need to write JDBC code to fetch data from data storage.
 	```javascript
 		//hardcoded values
 		driver.findElement(By.css("#FirstName")).sendKeys("George");
