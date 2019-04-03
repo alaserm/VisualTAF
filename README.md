@@ -92,11 +92,16 @@ This tool is designed to enforce **test automation best practices**, so there is
 	
 5. ## Reporting <br>
 	**Selenium:**<br/>
-	Virtually None.<br/>
+	Virtually None, except<br/>
+	```javascript
+		System.out.println("TC130 startec"); 
+		System.out.println("Clicked Submit button"); 
+		...
+	```
 		
 	**ExlJS:**<br/>
-	Each single step is **automatically** reported in HTML report indicating what field was clicked/filled-in and with what data. Screenshots are also taken automatically to see what was happening in web application while test was running.
-	[![Reporting compared](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared.png)
+	Comprehensive drill-down HTML report is generated **automatically** where you clearly see which test cases passed/failed WITH step-by-step action performed by each test case and screenshots.
+	[![Reporting compared](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared2.png)](http://23.236.144.243/VisualTAFScreenshots/ReportingCompared2.png)
 	
 
 5.  ## Parallel test execution <br>
@@ -124,7 +129,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```		
 	**ExlJS:**<br/>
 	Just select # of parallel threads you want and browser type from GUI when you start test execution, no need to code anything, test scripts are not dependant on browser type and threads.
-	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots//threadandbrowsers.png)](http://23.236.144.243/VisualTAFScreenshots/threadandbrowsers.png)
+	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots//threadandbrowsers2.png)](http://23.236.144.243/VisualTAFScreenshots/threadandbrowsers2.png)
 
 6.  ## Deployment and learning curve <br>
 	**Selenium:**</br>
