@@ -134,7 +134,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 6.  ## Object Identifiers <br>
 	**Selenium:**</br>
-	Object identifiers are hardcoded in many places in Selenium code.
+	Element identifiers are hardcoded in many places in Selenium code.
 	```javascript
 		//test1
 		driver.findElement(By.css("#LastName"))
@@ -143,7 +143,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		driver.findElement(By.css("#LastName"))
 	```		
 	**ExlJS:**<br/>
-	Object identifiers for each page are kept separately for easy maintenance later. This  test automation best practice enforced by ExlJS tool.
+	Element identifiers for each page are encapsulated by "xxxxxPage" object in one place for easy maintenance later. This  test automation best practice is enforced by ExlJS tool.
 	```javascript
 		var LoginPage = 
 		{
