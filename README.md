@@ -132,7 +132,34 @@ This tool is designed to enforce **test automation best practices**, so there is
 	Just select # of parallel threads and browser type from GUI when you start test execution, no need to code anything, test scripts are not dependant on browser type or threads.
 	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots//threadandbrowsers2.png)](http://23.236.144.243/VisualTAFScreenshots/threadandbrowsers2.png)
 
-6.  ## Deployment and learning curve <br>
+6.  ## Object Identifiers <br>
+	**Selenium:**</br>
+	Object identifiers are hardcoded in many places in Selenium code.
+	```javascript
+		//test1
+		driver.findElement(By.css("#LastName"))
+		...
+		//test2
+		driver.findElement(By.css("#LastName"))
+	```		
+	**ExlJS:**<br/>
+	Object identifiers for each page are kept separately for easy maintenance later. This  test automation best practice enforced by ExlJS tool.
+	```javascript
+		var LoginPage = 
+		{
+		    email : selectorAndDescription("input#email", "Email address field"),
+		    password : selectorAndDescription("input#password", "Password field"),
+		    LoginButton : selectorAndDescription("button.btn-primary", "Login Button"),
+
+		    ErrorMessage : selectorAndDescription("span.help-block", "Error Message Area"),
+		    
+		    url : "http://23.236.144.243/TicketsAUT/public/login"
+		}
+
+		
+	```
+
+7.  ## Deployment and learning curve <br>
 	**Selenium:**</br>
 	Need to download Java, Eclipse or Netbeans IDE, selenium jars, chromedriver.exe, compile tests to jar.<br/>
 	Learning curve: need to learn Java classes, add strong types to every parameter, learn JDBC for data feed.
@@ -147,104 +174,10 @@ This tool is designed to enforce **test automation best practices**, so there is
 # Installation
 1. You would need Chrome Browser if you want to run included demo tests (https://www.google.com/chrome/).
 2. Download ExcelTAF.zip file (http://23.236.144.243/VisualTAF/ExcelTAF.zip).
-3. Unzip content of zip file to some folder.
-
-# Running
-1. In unzipped folder run ExcelTAF.exe
-2. Right click on "Regression" in tool left panel and in popped up context menu click "Run selected test set" option to run built-in demo scripts
-3. Then select number of parallel threads for execution, demo has 3 Excel files under Regression set, so if we specify 3 threads, then thread 1 will pick "Demo1.xlsx", thread 2 will pick "Demo2.xlsx", thread 3 will pick "Demo3.xlsx" for execution.
-4. Test Execution will start with multiple browser windows (parallel execution) 
-5. After test run completes you will see comprehensive test execution report
-
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/report.png)](http://23.236.144.243/VisualTAFScreenshots/report.png)
-
-# Developing test cases
-Doubleclick on "Demo1.xlsx" node to open this file in Excel and see it's structure.
-It's quite simple, in each Excel file you need to have a sheet called "Instructions", this is where you assemble test cases. Instructions sheet has "TCName", "Keyword", "Input", "ExpectedResult", "Comment" columns. In "TCName" column you give name to your test case, that's how test case starts, then in the next lines in "Keywords" column you fill in instructions and attach data to them in "Input" column, then you end test case by typing "END" in "TCNAME" column. It's better pictured in diagram below
-
-[![Main Screen](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)](http://23.236.144.243/VisualTAFScreenshots/CreatingTestCasesInExcel.png)
-
-Now let's see how you add on-page objects to your scripts, in the left panel of the tool
-expand **"Page Objects"** folder, it acts as an Object Repository, and doubleclick on any file there to open it and see its structure.
-```javascript
-//LoginPage.js
-//Encapsulates page objects of Login page
-
-var LoginPage = 
-{
-    email : selectorAndDescription("input#email", "Email address field"),
-    password : selectorAndDescription("input#password", "Password field"),
-    LoginButton : selectorAndDescription("button.btn-primary", "Login Button"),
-    
-    ErrorMessage : selectorAndDescription("span.help-block", "Error Message Area"),
-}
-
-LoginPage.url = "http://23.236.144.243/TicketsAUT/public/login";
-
-//Then in your code you can  use on-page objects like typeText(LoginPage.email, "alaserm@yahoo.com")
-// or click(LoginPage.LoginButton)
-//Notice that all object recognition properties like "input#email" stored only  
-//in one xxxxPage file, it's for easy script maintainability later when application changes
-
-```
-this is how you keep your object recognition properties in one place, so if developers change object in AUT (Application Under Test) then you can easily update it in just one place in your scripts, this is automation best practice for script maintainability.
+3. Unzip content of zip file and run ExcelTAF.exe
+4. It comes with fully functional demo test scripts which can serve as template for your project, you can run them from right-click context menu.
 
 
-So once you added on-page objects you can easily create keywords (keyword is a reusable function to perform common workflows in your application). Add keywords to **"Keywords"** folder in the left panel of the tool, keyword can be reused many times in Excel, you just feed it with different data rows for different test cases. here is an example of Login keyword for demo app that come with this tool.
-
-```javascript
-var Login = {};
-Login.login = function(params) {
-	
-    navigate(LoginPage.url);
-    waitForAngularJQueryJS();
-    
-    typeText(LoginPage.email, params.get("email") );
-    typeText(LoginPage.password, params.get("password") );
-    
-    click(LoginPage.LoginButton);
-}
-```
-
-You can also use plain Selenium code like driver.findElement(...).click() or driver.findElement(...).sendKeys("") to which you are used to. But there are also built-in convinience methods like typeText(), click() to make your life easier. You can see a list of convenience methods below:
-
-
-```javascript
-waitForAngularJQueryJS()
-waitForObjectToBecomeVisible(obj, timeoutSecs )
-navigate(to)
-
-css(selector)
-xpath(selector)
-findObject(desc)
-
-isObjectPresent(obj)
-isObjectVisible(obj)
-isObjectEnabled(obj)
-
-clearText(obj)
-typeText(obj, text)
-select(obj, visibleText)
-click(obj)
-
-getText(obj)
-getValue(obj)
-getAttribute(obj, attrName)
-getCssValue(obj, valName)
-
-assertCurrentPageUrl(url)
-assertObjectPresent(obj)
-assertObjectVisible(obj)
-assertObjectText( text, obj)
-assertObjectRegExp( text, obj)
-assertCssValue(valName, val, obj )
-
-getAlertText()
-acceptAlert()
-dismissAlert()
- 
-```
-
-Become an early distributor and earn millions with this hot new product ;)\
-For any question contact **alaserm@yahoo.com**
+For technical support and questions contact **alaserm@yahoo.com**
+I can also provide affordable turn-key automation services for your organisation.
 
