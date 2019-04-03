@@ -166,7 +166,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 	
 	**ExlJS:**<br/>
 	Just unpack downloaded zip file, everything is included, and start running tests immediately, no compilation required!<br/>
-	Learning curve: 1 day max to learn how to create Javascript functions and how to copy/paste rows in Excel :-), that's it.
+	Learning curve: 1 day max to learn how to create Javascript functions and how to copy/paste rows in Excel :-), that's it.<br/>
+	ExlJS exposes REST API for automatic test execution, you can easily integrate it with CI tools like Jenkins.
 <!---	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
 -->
@@ -178,6 +179,6 @@ This tool is designed to enforce **test automation best practices**, so there is
 4. It comes with fully functional demo test scripts which can serve as template for your project, you can run them from right-click context menu.
 
 
-For technical support and questions contact **alaserm@yahoo.com**
-I can also provide affordable turn-key automation services for your organisation.
+*For technical support and questions contact **alaserm@yahoo.com**<br>
+I can also provide affordable turn-key automation services for your organisation.*
 
