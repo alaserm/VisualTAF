@@ -124,7 +124,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```		
 	**ExlJS:**<br/>
 	Just select # of parallel threads you want and browser type from GUI when you start test execution, no need to code anything, test scripts are not dependant on browser type and threads.
-	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)](http://23.236.144.243/VisualTAFScreenshots/threadsandbrowsers.png)
+	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots//threadandbrowsers.png](http://23.236.144.243/VisualTAFScreenshots/threadandbrowsers.png)
 
 6.  ## Deployment and learning curve <br>
 	**Selenium:**</br>
