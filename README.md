@@ -107,7 +107,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 5.  ## Parallel test execution <br>
 	**Selenium:**</br>
-	You would need to create new Threads by yourself in your Java code
+	You would need to create new Threads by yourself in Java code
 	```javascript
 		new Thread() {
 
@@ -129,7 +129,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		
 	```		
 	**ExlJS:**<br/>
-	Just select # of parallel threads you want and browser type from GUI when you start test execution, no need to code anything, test scripts are not dependant on browser type and threads.
+	Just select # of parallel threads and browser type from GUI when you start test execution, no need to code anything, test scripts are not dependant on browser type or threads.
 	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots//threadandbrowsers2.png)](http://23.236.144.243/VisualTAFScreenshots/threadandbrowsers2.png)
 
 6.  ## Deployment and learning curve <br>
