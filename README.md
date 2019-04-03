@@ -107,7 +107,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 		    @Override
 		    public void run() {
-			Test1();
+			driver1 = new ChromeDriver();
 		    }
 
 		}.start();
@@ -116,15 +116,15 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 		    @Override
 		    public void run() {
-			TestN();
+			driver2 = new ChromeDriver();
 		    }
 
 		}.start();
 		
 	```		
 	**ExlJS:**<br/>
-	Just type # of parallel threads for test execution in the tool!
-	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)
+	Just select # of parallel threads you want and browser type from GUI when you start test execution, no need to code anything, test scripts are not dependant on browser type and threads.
+	[![Parallel execution compared](http://23.236.144.243/VisualTAFScreenshots/ParallelExcecutionCompared.png)](http://23.236.144.243/VisualTAFScreenshots/threadsandbrowsers.png)
 
 6.  ## Deployment and learning curve <br>
 	**Selenium:**</br>
