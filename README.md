@@ -25,7 +25,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```		
 	**ExlJS:**<br/>
 	Data seemlessly driven to keyword from Excel sheet.
-	[![Data driving compared](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared.png)](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared.png)
+	[![Data driving compared](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png)](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png)
 
 
 
