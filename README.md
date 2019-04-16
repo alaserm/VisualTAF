@@ -174,8 +174,8 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 # Installation
 1. You would need Chrome Browser if you want to run included demo tests (https://www.google.com/chrome/).
-2. Download ExcelTAF.zip file (http://23.236.144.243/VisualTAF/ExcelTAF.zip).
-3. Unzip content of zip file and run ExcelTAF.exe
+2. Download ExlJS.zip file (http://23.236.144.243/VisualTAF/ExlJS.zip).
+3. Extract content of zip file and run ExlJS.exe
 4. It comes with fully functional demo test scripts which can serve as a starting template for your project, you can run them from right-click context menu.
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)
