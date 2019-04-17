@@ -174,7 +174,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 
 # Installation
 1. Download ExlJS.zip file (http://23.236.144.243/VisualTAF/ExlJS.zip).
-2. Extract content of zip file and run ExlJS.exe
+2. Extract content of zip file and run **ExlJS.exe**
 3. It comes with fully functional demo test scripts which can serve as a starting template for your project, you can run them from right-click context menu (for local tests Google Chrome is required).
 
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)
