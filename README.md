@@ -14,8 +14,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 - **Save up to 70%** on your test automation development and maintenance time.
 
 # Video Tutorial
-[![watch video](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)]
-(https://www.youtube.com/watch?v=f3dMvVQ7NpA)
+[![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://www.youtube.com/watch?v=f3dMvVQ7NpA)
 
 # Comparison to Selenium
 1. ## Data-driving keywords<br/>
