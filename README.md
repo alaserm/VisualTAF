@@ -12,12 +12,10 @@ This tool is designed to enforce **test automation best practices**, so there is
 - **!!!New!!!** *API testing* is available now.
 - **!!!New!!!** Enterprise level reporting with drill down to step level, charts, screenshots and more
 - **Save up to 70%** on your test automation development and maintenance time.
-
+<br/>
 # Video Tutorial
-[![watch video](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)]
-(https://www.youtube.com/watch?v=f3dMvVQ7NpA)
-
-
+[![watch video](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://www.youtube.com/watch?v=f3dMvVQ7NpA)
+<br/>
 # Comparison to Selenium
 1. ## Data-driving keywords<br/>
 	**Selenium:**<br/>
