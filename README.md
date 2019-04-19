@@ -11,7 +11,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 - CI/CD integration: ExlJS exposes REST API that you can call from CI tools, like Jenkins, to start tests in pipeline.
 - Enterprise level reporting with drill down to step level, charts, screenshots and more.
 - **!!!New!!!** *API testing* is available now.
-- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with them).
+- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you, it will create Page Object with web elements and keyword to feed data to those elements from your datasheet.
 - **Save up to 70%** on your test automation development and maintenance time.
 
 ## Video Tutorial - From Zero to Hero in Test Automation in 20 minutes!!!
@@ -30,7 +30,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 	**ExlJS:**<br/>
 	Data seemlessly driven to keyword from Excel rows. It's super easy to create and maintain test data in Excel.
 	[![Data driving compared](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png)](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png) <br/>
-	**!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with them).
+	**!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you, it will create Page Object with web elements and keyword to feed data to those elements from your datasheet.
 
 
 
