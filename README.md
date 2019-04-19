@@ -8,9 +8,10 @@ This tool is designed to enforce **test automation best practices**, so there is
 - It supports test exection on *Selenium Grid nodes* and/or local machine.
 - It supports Angular and JQuery ajax waits.
 - Automatically takes screeenshots upon test failure for easy bug tracking.
-- CI/CD integration.
+- CI/CD integration: ExlJS exposes REST API that you can call from CI tools, like Jenkins, to start tests.
+-  Enterprise level reporting with drill down to step level, charts, screenshots and more.
 - **!!!New!!!** *API testing* is available now.
-- **!!!New!!!** Enterprise level reporting with drill down to step level, charts, screenshots and more
+- **!!!New!!!** *Automatic code generation* - fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with those elements).
 - **Save up to 70%** on your test automation development and maintenance time.
 
 ## Video Tutorial - From Zero to Hero in Test Automation in 20 minutes!!!
