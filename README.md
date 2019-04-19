@@ -89,15 +89,20 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```
 
 
-4. ## Checkpoints/element verification <br/>
+4. ## Element verification (a.k.a checkpoints)<br/>
 	**Selenium:**</br>
 	```javascript
-		if( textToVerify!= null) 
-			assertTrue( driver.findElement(By.id("CustomerId")).getText(), textToVerify) );
+		if( text!= null) 
+			assertTrue( driver.findElement(By.id("CustomerId")).getText(), text) );
 	```		
 	**ExlJS:**<br/>
 	```javascript
-		assertObjectText( textToVerify, UserRegistratioPage.customerId );
+		assertObjectText(UserRegistratioPage.customerId, text ); 
+		//OR
+		assertObjectAttribute(UserRegistratioPage.customerId, "class", "form-element");
+		//OR
+		assertObjectCss(UserRegistratioPage.customerId, "background-color", "rgb(21,77,12)");
+		
 	```		
 	
 5. ## Reporting <br>
