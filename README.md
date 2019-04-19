@@ -53,9 +53,14 @@ This tool is designed to enforce **test automation best practices**, so there is
 	```		
 	**ExlJS:**<br/>
 	```javascript
-		waitForAngularJQueryJS();
+		waitForAngularJQueryJS();  //auto checks jQuery and Angular parameters to make sure JS loading is done
 		//OR
-		waitForObjectToBecomeVisible(UserRegistratioPage.textArea, 30);
+		waitForObjectToBecomeVisible(UserRegistratioPage.textArea, 30); //wait until some object appears on page
+		//OR
+		waitForObjectToBecomeInvisible(reportPage.spinner,30); //wait till loading spinner icon is gone
+		//OR
+		waitForObjectText(reportPage.statusLine, "Finished loading"); //wait till certain text appears in object
+	
 	```
 3. ## Filling form data<br/>
 	**Selenium:**<br/>
