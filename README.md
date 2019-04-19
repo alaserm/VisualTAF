@@ -1,17 +1,17 @@
 # ExlJS
 ExlJS is a simple, but powerful tool for rapid and easy creation of **MAINTAINABLE** keyword and data driven test automation scripts.
-ExlJS allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from another sheets in the same workbook.
+ExlJS allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from datasheets.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
 - With this tool you can use Selenium **from JavaScript**, which is much easier than learning complex Java or C#.
-- **No need** to install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set.
+- **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - It supports test exection on *Selenium Grid nodes* and/or local machine.
-- It supports Angular and JQuery ajax waits.
+- It supports Angular and JQuery ajax waits (SPA apps).
 - Automatically takes screeenshots upon test failure for easy bug tracking.
-- CI/CD integration: ExlJS exposes REST API that you can call from CI tools, like Jenkins, to start tests.
--  Enterprise level reporting with drill down to step level, charts, screenshots and more.
+- CI/CD integration: ExlJS exposes REST API that you can call from CI tools, like Jenkins, to start tests in pipeline.
+- Enterprise level reporting with drill down to step level, charts, screenshots and more.
 - **!!!New!!!** *API testing* is available now.
-- **!!!New!!!** *Automatic code generation* - fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with them).
+- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with them).
 - **Save up to 70%** on your test automation development and maintenance time.
 
 ## Video Tutorial - From Zero to Hero in Test Automation in 20 minutes!!!
@@ -30,7 +30,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 	**ExlJS:**<br/>
 	Data seemlessly driven to keyword from Excel rows. It's super easy to create and maintain test data in Excel.
 	[![Data driving compared](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png)](http://23.236.144.243/VisualTAFScreenshots/DataDrivingCompared2.png) <br/>
-	**!!!New!!!** *Automatic code generation* - fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with them).
+	**!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you that will interact with your datasheet (creates Page Object with web elements and keyword to interact with them).
 
 
 
