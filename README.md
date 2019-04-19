@@ -81,7 +81,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 		function fillUserRegistrationForm(params)
 		{
 			//auto searches for element and fills in text straight from Excel data row
-			typeText(UserRegistratioPage.firstName, params.get("FirstName") ); //if text is null or empty then this command will be skipped
+			typeText(UserRegistratioPage.firstName, params.get("FirstName") ); //if text is null or empty then this command will be automatically skipped.
 			typeText(UserRegistratioPage.lastName, params.get("LastName") );
 			typeText(UserRegistratioPage.address, params.get("Address") );
 				
