@@ -64,7 +64,7 @@ public class App {
     private static final Object syncObject_threadCount = new Object();
     private static int threadCount;
 
-    static LicenseMgmtClient lmc;
+    
 
     public static void main(String[] args) throws Exception {
 
@@ -95,30 +95,6 @@ public class App {
         frm.setLocationRelativeTo(null);
         frm.setVisible(true);
 
-        //check every day for valid license
-        lmc = new LicenseMgmtClient();
-        lmc.licFileName = "license.txt";
-        lmc.licManagerAddr = "23.236.144.243"; //"192.168.220.132"; //127.0.0.1"; // ; 
-        lmc.licManagerPort = 1077;
-        lmc.isTrialPeriodSupported = true;
-        lmc.desirableTrialPeriodDays = 90;
-        lmc.appName = "VisualTAF";
-        lmc.extend = true;
-
-        while (true) {
-            synchronized (lmc) {
-                if (!lmc.validateLicenseOrTrailPeriod()) {
-                    //Logger.getGlobal().severe("License or trial period invalid");
-                    // System.exit(1);
-
-                    Method method = System.class.getMethod(StringXORer.decode("VkpYRw=="), new Class[]{int.class});
-                    Object o = method.invoke(null, 1);
-                    
-                }
-            }
-            //Thread.sleep(3 * 60 * 1000); //for testing
-            Thread.sleep(24 * 60 * 60 * 1000); //24
-        }
     }
 
     static void processExcelFile(String fileToProcess) throws FileNotFoundException, IOException, TransformerConfigurationException, TransformerException {
