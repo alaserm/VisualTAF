@@ -14,7 +14,7 @@ This tool is designed to enforce **test automation best practices**, so there is
 - **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is a **MAGIC** shortcut, it will create instruction code, repository with web elements and commands to feed data to web elements from your Excel. IF code is already generated this shortcut will easy navigate you to places.
 - **Save up to 70%** on your test automation development and maintenance time.
 
-## Video Tutorial - From Zero to Hero in Test Automation in 20 minutes!!!
+## Watch how I automate data driven test cases in a matter of minutes!!!
 [![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
 
 # Comparison to Selenium
