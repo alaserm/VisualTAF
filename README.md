@@ -1,6 +1,6 @@
-# ExlJS
+# ExlJS (the tool that does most of the work for you in data-driven test automation)
 ExlJS is a simple, but powerful tool for rapid and easy creation of **MAINTAINABLE** keyword and data driven test automation scripts.
-ExlJS allows assembly of test cases in EXCEL by **copy/pasting** keywords in Excel sheet and feeding them with test data from datasheets.
+ExlJS allows assembly of test cases in EXCEL by **copy/pasting** instructions in Excel sheet and feeding them with test data from datasheets.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
 - With this tool you can use Selenium **from JavaScript**, which is much easier than learning complex Java or C#.
@@ -11,11 +11,11 @@ This tool is designed to enforce **test automation best practices**, so there is
 - CI/CD integration: ExlJS exposes REST API that you can call from CI tools, like Jenkins, to start tests in pipeline.
 - Enterprise level reporting with drill down to step level, charts, screenshots and more.
 - **!!!New!!!** *API testing* is available now.
-- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press Ctrl+G for the tool to auto generate JS code for you, it will create Page Object with web elements and keyword to feed data to those elements from your datasheet.
+- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is a **MAGIC** shortcut, it will create instruction code, repository with web elements and commands to feed data to web elements from your Excel. IF code is already generated this shortcut will easy navigate you to places.
 - **Save up to 70%** on your test automation development and maintenance time.
 
 ## Video Tutorial - From Zero to Hero in Test Automation in 20 minutes!!!
-[![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://www.youtube.com/watch?v=f3dMvVQ7NpA)
+[![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
 
 # Comparison to Selenium
 1. ## Data-driving keywords<br/>
