@@ -5,7 +5,7 @@ Also this tool allows you to cut your test execution time **tenfold** by running
 This tool is designed to enforce **test automation best practices**, so there is no "record and playback" functionality or other features that are not used by *REAL life test automation experts* as they make scripts unmaintainable.
 - With this tool you can use Selenium **from JavaScript**, which is much easier than learning complex Java or C#.
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
-- Built-in Object Repository to keep all Web Elements of your tests in one place (test automation best practises for ease of maintenance in case web elements selectors change in the future) 
+- Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
 - It supports test exection on *Selenium Grid nodes* and/or local machine.
 - It supports Angular and JQuery ajax waits (SPA apps).
 - Automatically takes screeenshots upon test failure for easy bug tracking.
