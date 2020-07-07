@@ -22,8 +22,8 @@ This tool is designed to enforce **test automation best practices** like reusabl
 
 # Installation
 1. Download ExlJS.zip file from [here](http://23.236.144.243/VisualTAF/ExlJS.zip)
-2. Extract content of zip file and run **ExlJS.exe**
-3. It comes with fully functional demo test scripts which can serve as a starting template for your project, you can run them from right-click context menu (for local tests Google Chrome is required).
+2. Extract content of zip file to some folder
+3. Go to that folder and run **ExlJS.exe**
 
 <!--
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)
