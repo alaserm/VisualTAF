@@ -1,8 +1,9 @@
 # ExlJS (the tool that does most of the work for you in data-driven test automation)
 ExlJS is a simple, but powerful tool for rapid and easy creation of **data-driven** test automation scripts. It's data-driven out of the box, no need to write code for fetching test data. ExlJS allows composition of test cases in EXCEL by **copy/pasting** reusable instructions in one Excel sheet and feeding them with test data from another excel sheet in the same Excel file.
 Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
-This tool is designed to enforce **test automation best practices**, reusable data-driven instructions, object repository.
-- It's a standalong GUI tool, it uses **Javascript**, which is much easier to use than Java or C#, no compilation required.
+This tool is designed to enforce **test automation best practices** like reusable data-driven instructions, object repository.
+- It's a **standalone GUI tool**, no need to remember  command line parameters :)
+- it uses **Javascript**, which is much easier to use than Java or C# code, **no compilation required**.
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
 - It supports parallel test exection on remote machines.
