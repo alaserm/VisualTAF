@@ -5,7 +5,7 @@ This tool is designed to enforce **test automation best practices**, reusable da
 - It's a standalong GUI tool, it uses **Javascript**, which is much easier to use than Java or C#, no compilation required.
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
-- It supports test exection on *Selenium Grid nodes* and/or local machine.
+- It supports parallel test exection on remote machines.
 - It has sophisticated built-in functions to wait for page load in standard and SPA pages.
 - Automatically takes screeenshots upon test failure for easy defect reporting.
 - Enterprise level reporting with drill down to step level, you can see exactly what test data was used for each element and what button was clicked.
