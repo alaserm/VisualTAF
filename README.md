@@ -9,7 +9,7 @@ This tool is designed to enforce **test automation best practices**, reusable da
 - It has sophisticated built-in functions to wait for page load in standard and SPA pages.
 - Automatically takes screeenshots upon test failure for easy defect reporting.
 - Enterprise level reporting with drill down to step level, you can see exactly what test data was used for each element and what button was clicked.
-- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is a **MAGIC** shortcut, it will create instruction code, repository with web elements and commands to feed data to web elements from your Excel. IF code is already generated this shortcut will easy navigate you to places.
+- **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is a **MAGIC** shortcut, it will create instruction code, repository with web elements and commands to feed data to web elements from your Excel. IF code is already generated this shortcut will easy navigate you to instruction code or object repository element.
 - **Save up to 70%** on your test automation development and maintenance time.
 
 ## Watch how I automate data driven test cases in a matter of minutes!!!
@@ -24,8 +24,10 @@ This tool is designed to enforce **test automation best practices**, reusable da
 2. Extract content of zip file and run **ExlJS.exe**
 3. It comes with fully functional demo test scripts which can serve as a starting template for your project, you can run them from right-click context menu (for local tests Google Chrome is required).
 
+<!==
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)
+-->
 
 *For technical support and questions contact **alaserm@yahoo.com**<br>
-I can also provide affordable turn-key automation services for your organisation.*
+let me know if you have any questions or want a FREE training session via skype or zoom.*
 
