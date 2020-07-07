@@ -6,7 +6,7 @@ This tool is designed to enforce **test automation best practices**, reusable da
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
 - It supports parallel test exection on remote machines.
-- It has sophisticated built-in functions to wait for page load in standard and SPA pages.
+- It has sophisticated built-in functions to wait for page load in standard and SPA pages to make your test scripts rock stable.
 - Automatically takes screeenshots upon test failure for easy defect reporting.
 - Enterprise level reporting with drill down to step level, you can see exactly what test data was used for each element and what button was clicked.
 - **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is a **MAGIC** shortcut, it will create instruction code, repository with web elements and commands to feed data to web elements from your Excel. IF code is already generated this shortcut will easy navigate you to instruction code or object repository element.
