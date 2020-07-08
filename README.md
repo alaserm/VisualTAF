@@ -4,6 +4,7 @@ Also this tool allows you to cut your test execution time **tenfold** by running
 This tool is designed to enforce **test automation best practices** like reusable data-driven instructions, object repository.
 - It's a **standalone GUI tool**, no need to remember  command line parameters :)
 - it uses **Javascript**, which is much easier to use than Java or C# code, **no compilation required**.
+- *Tons of built-in convenience functions for all types of interactions with web elements, tons of built-in verification points, you don't need to write any extra code.*
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
 - It supports parallel test exection on remote machines.
