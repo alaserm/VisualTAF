@@ -35,8 +35,8 @@ You can also see  test scripts developed by this tool in [this git repo](https:/
 *For technical support and questions contact **alaserm@yahoo.com**<br>
 let me know if you have any questions or want a FREE training session via skype or zoom.*
 
-
-## Element interaction functions
+# List of commonly used built-in functions
+## Page Element interaction functions
 - clearText
 - typeText
 - select
@@ -45,43 +45,43 @@ let me know if you have any questions or want a FREE training session via skype 
 - moveToXY
 - browserAlertBoxClick
 
-## Verification functions
-assertCurrentPageUrl
-assertCurrentPageTitle
-assertObjectPresenceState
-assertObjectVisibilityState
-assertObjectEnabledState
-assertObjectSelectionState
-assertObjectText
-assertObjectAttribute
-assertObjectCss
-assertListSelection
-assertListContent
-assertBrowserAlertBoxText
+## Verification functions, checkpoints
+- assertCurrentPageUrl
+- assertCurrentPageTitle
+- assertObjectPresenceState
+- assertObjectVisibilityState
+- assertObjectEnabledState
+- assertObjectSelectionState
+- assertObjectText
+- assertObjectAttribute
+- assertObjectCss
+- assertListSelection
+- assertListContent
+- assertBrowserAlertBoxText
 
 ## Wait functions
-sleep
-waitForStandardPageLoad
-waitForAngularJQueryJS
-waitForObjectToBecomeInvisible
-waitForObjectToBecomeVisible
-waitForObjectText
+- sleep
+- waitForStandardPageLoad
+- waitForAngularJQueryJS
+- waitForObjectToBecomeInvisible
+- waitForObjectToBecomeVisible
+- waitForObjectText
 
 
 ## Helper functions
-navigate
-findObject
-findRowInHtmlTable
-isObjectPresent
-isObjectVisible
-isObjectEnabled
-getText
-getValue
-getAttribute
-getCssValue
-switchToIframe
-switchBackToDefaultContent
-selectorAndDescription
-objectAndDescription
-reportStep
-debug
+- navigate
+- findObject
+- findRowInHtmlTable
+- isObjectPresent
+- isObjectVisible
+- isObjectEnabled
+- getText
+- getValue
+- getAttribute
+- getCssValue
+- switchToIframe
+- switchBackToDefaultContent
+- selectorAndDescription
+- objectAndDescription
+- reportStep
+- debug
