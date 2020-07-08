@@ -5,6 +5,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 - It's a **standalone GUI tool**, no need to remember  command line parameters :)
 - it uses **Javascript**, which is much easier to use than Java or C# code, **no compilation required**.
 - *Tons of built-in convenience functions for all types of interactions with web elements, tons of built-in verification points, you don't need to write any extra code.*
+- Do your automated tests fail because test data already exists in the system from previous automated test runs? With this tool you won't have this problem, it can automatically **generate unique test data every time.**
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
 - It supports parallel test exection on remote machines.
