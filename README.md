@@ -37,13 +37,13 @@ let me know if you have any questions or want a FREE training session via skype 
 
 
 ## Element interaction functions
-clearText
-typeText
-select
-click
-clickAtXY
-moveToXY
-browserAlertBoxClick
+- clearText
+- typeText
+- select
+- click
+- clickAtXY
+- moveToXY
+- browserAlertBoxClick
 
 ## Verification functions
 assertCurrentPageUrl
