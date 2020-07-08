@@ -35,8 +35,8 @@ You can also see  test scripts developed by this tool in [this git repo](https:/
 *For technical support and questions contact **alaserm@yahoo.com**<br>
 let me know if you have any questions or want a FREE training session via skype or zoom.*
 
-# List of commonly used built-in functions
-  **each function has documentation when you type its name in built-in text editor**
+# List of frequently used built-in functions
+  **each function has documentation when you type its name in this tool editor**
 
 ## Page Element interaction functions
 - clearText
