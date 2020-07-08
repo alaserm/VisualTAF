@@ -1,11 +1,12 @@
 # ExlJS (the tool that does most of the work for you in data-driven test automation)
-ExlJS is a simple, but powerful tool for rapid and easy creation of **data-driven** test automation scripts. It's data-driven out of the box, no need to write code for fetching test data. ExlJS allows composition of test cases in EXCEL by **copy/pasting** reusable instructions in one Excel sheet and feeding them with test data from another excel sheet in the same Excel file.
-Also this tool allows you to cut your test execution time **tenfold** by running your tests in parallel in multiple browsers at the same time.\
+ExlJS is a simple, but powerful tool for rapid and easy creation of **data-driven** test automation scripts. It's data-driven out of the box, no need to write code for fetching test data. ExlJS allows composition of test cases in EXCEL by *copy/pasting* reusable instructions and adding reference to test data in another sheet, all living in the same Excel file. It gives you great organizational structure and visibility for your test cases, built-in shortcuts make test case automation straight forward (top to bottom approach), smooth, and fun.
+
 This tool is designed to enforce **test automation best practices** like reusable data-driven instructions, object repository.
 - It's a **standalone GUI tool**, no need to remember  command line parameters :)
 - it uses **Javascript**, which is much easier to use than Java or C# code, **no compilation required**.
 - *Tons of built-in convenience functions for all types of interactions with web elements, tons of built-in verification points, you don't need to write any extra code.*
 - *Do your automated test scripts fail because test data already exists in the system from previous automated test runs? With this tool you won't have this problem, it can automatically generate unique test data every time (no coding required).*
+- **Parallel** test script execution in multiple browsers, instead of hours you can finish test runs in minutes.
 - **No need** to download and install Node.js, Java, Selenium or other dependencies, the tool is self contained, just download this tool and you are all set, it works out of the box.
 - Built-in **Object Repository** to keep all Web Elements of your tests in one place (test automation best practices for ease of maintenance in case web element selectors change later) 
 - It supports parallel test exection on remote machines.
