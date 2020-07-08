@@ -36,7 +36,7 @@ You can also see  test scripts developed by this tool in [this git repo](https:/
 let me know if you have any questions or want a FREE training session via skype or zoom.*
 
 # List of commonly used built-in functions
-  **each function has documentation when you type it in built-in text editor**
+  **each function has documentation when you type its name in built-in text editor**
 
 ## Page Element interaction functions
 - clearText
