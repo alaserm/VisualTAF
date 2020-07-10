@@ -1,5 +1,6 @@
 # ExlJS (the tool that does most of the work for you in data-driven test automation)
 ExlJS is a powerful standalone GUI tool for rapid and super easy creation of **data-driven** test automation scripts. It's data-driven out of the box, no need to write code for fetching test data. ExlJS allows composition of test cases in EXCEL by *copy/pasting* reusable instructions and adding reference to test data in another sheet, instructions and test data located in the same Excel file. It gives you great organizational structure and visibility for your test cases, built-in shortcuts make test case automation straight forward (top to bottom approach), smooth and **fun**, you will waste less brain energy on automation and have more energy for yourself and as a result feeling more **happy** in your life.
+
 [![happy](http://23.236.144.243/VisualTAFScreenshots/happy-family.jpg)]
 
 This tool is designed to enforce **test automation best practices** like reusable data-driven instructions, object repository.
@@ -20,6 +21,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 
 ## Watch how I automate data driven test cases in a matter of minutes!!!
 [![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
+
 [![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/crafted-test-cases-in-excel.png)]
 
 
