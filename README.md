@@ -18,6 +18,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 
 ## Watch how I automate data driven test cases in a matter of minutes!!!
 [![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
+[![Automated test cases](http://23.236.144.243/VisualTAFScreenshots/crafted-test-cases-in-excel.png)]
 
 <!---	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
