@@ -41,7 +41,7 @@ You can also see  test scripts developed by this tool in [this git repo](https:/
 let me know if you have any questions or want a FREE training session via skype or zoom.*
 
 # List of frequently used built-in functions
-  **each function has documentation when you type its name in this tool editor**
+  **each function has documentation, just type its name in tool editor**
 
 ## Page Element interaction functions
 - clearText
