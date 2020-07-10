@@ -13,7 +13,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 - It supports parallel test exection on remote machines.
 - It has sophisticated built-in functions to wait for page load in standard and SPA pages to make your test scripts rock stable.
 - Automatically takes screeenshots upon test failure for easy defect reporting.
-- Automatic Enterprise Level Reporting with drill down to step level (no need for you to write any code), you can see exactly what test data was used for each element and what button was clicked.
+- Automatic **Enterprise Level Reporting** with drill down to step level (no need for you to write any code), you can see exactly what test data was used for each element and what button was clicked. You can mail this test execution report to project stakeholders for visibility, everybody can see what tests have been executed.
 - **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is the  **MAGIC hotkey**, it will create instruction code, repository with web elements and commands to to interact with them. This hotkey will also navigate you from Excel to exact instruction code and from instruction code to exact web element in object repository, so you don't need to strain your eyes and brain searching in code for instruction or web elements.
 - **Save up to 70%** on your test automation development and maintenance time.
 - And...It's **FREE** for personal and educations use. Free training is also provided!
