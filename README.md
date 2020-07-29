@@ -43,7 +43,7 @@ let me know if you have any questions or want a FREE training session via skype 
 
 # List of frequently used built-in functions
   **each function has documentation, just type its name in tool editor**
-![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/Cheat%20Sheet.png)
+![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/cheat sheet.jpg)
 
 ## Page Element interaction functions
 - clearText
