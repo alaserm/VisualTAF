@@ -18,9 +18,10 @@ This tool is designed to enforce **test automation best practices** like reusabl
 - **Save up to 70%** on your test automation development and maintenance time.
 - And...It's **FREE** for personal and educational use. Free training is provided to everybody!
 
+## Best practices implemented in this tool in one Pic :)
+![Automated test cases in Excel](http://23.236.144.243/ref to repo, reference to keyword, reference to data.png)
 ## Watch how I automate data driven test cases in a matter of minutes!!!
 [![Video from zero to hero](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
-![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/crafted-test-cases-in-excel.png)
 
 
 <!---	
