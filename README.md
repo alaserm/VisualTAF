@@ -30,7 +30,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 You can also see  test scripts developed by this tool in [this git repo](https://github.com/alaserm/DateParserAutomation)
 
 # Installation
-1. Download ExlJS.zip file from [here](http://23.236.144.243/VisualTAF/ExlJS.zip)
+1. Download ExlJS.zip file from [this link](http://23.236.144.243/VisualTAF/ExlJS.zip)
 2. Extract content of zip file to some folder
 3. Go to that folder and run **ExlJS.exe**
 
