@@ -18,12 +18,14 @@ This tool is designed to enforce **test automation best practices** like reusabl
 - **Save up to 70%** on your test automation development and maintenance time.
 - And...It's **FREE** for personal and educational use. Free training is provided to everybody!
 
-## Best practices implemented in this tool in one Pic :)
+## Best practices implemented in this tool in one diagram
 ![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/best-practices3.png)
+<br/>
 
-## The simplest method for keyword and data driven test automation, Also covers unique test data generation by adding "uniqueN" postfix to test data and verifying data in multi page HTML tables
+## Video 1: Webinar The simplest method for keyword and data driven test automation, also covers unique test data generation by adding "uniqueN" postfix to test data and verifying data in multi page HTML tables
+<br/>
 [![Video1](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/1JBU7He1VVc)
-## Watch how I automate data driven test cases in <br/> a matter of minutes using magic hotkey!!!
+## Video 2: Watch how I automate data driven test cases in <br/> a matter of minutes using magic hotkey!!!
 [![Video2](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
 
 
