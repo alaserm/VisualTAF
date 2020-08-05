@@ -19,12 +19,10 @@ This tool is designed to enforce **test automation best practices** like reusabl
 - And...It's **FREE** for personal and educational use. Free training is provided to everybody!
 
 ## Best practices implemented in this tool in one diagram
-![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/best-practices3.png)
-<br/>
+![Automated test cases in Excel](http://23.236.144.243/VisualTAFScreenshots/best-practices3.png)<br/>
 
 ## Video 1: Webinar The simplest method for keyword and data driven test automation, also covers unique test data generation by adding "uniqueN" postfix to test data and verifying data in multi page HTML tables
-<br/>
-[![Video1](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/1JBU7He1VVc)
+[![Video1](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/1JBU7He1VVc)<br/>
 ## Video 2: Watch how I automate data driven test cases in <br/> a matter of minutes using magic hotkey!!!
 [![Video2](http://23.236.144.243/VisualTAFScreenshots/youtubevideo.png)](https://youtu.be/rKnTu1Sx-0A)
 
@@ -32,7 +30,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 <!---	
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)](http://23.236.144.243/VisualTAFScreenshots/overallcomponents4.png)
 -->
-You can also see  test scripts developed by this tool in [this git repo](https://github.com/alaserm/DateParserAutomation)
+You can also see  test scripts developed by this tool in [this git repo](https://github.com/alaserm/DateParserAutomation)<br/>
 
 # Installation
 1. Download ExlJS.zip file from [this link](http://23.236.144.243/VisualTAF/ExlJS.zip)
