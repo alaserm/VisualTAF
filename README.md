@@ -93,6 +93,8 @@ let me know if you have any questions or want a FREE training session via skype 
 - getCssValue
 - switchToIframe
 - switchBackToDefaultContent
+- switchToNextTab
+- closeCurrentTab
 - selectorAndDescription
 - objectAndDescription
 - reportStep
