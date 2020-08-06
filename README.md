@@ -36,7 +36,7 @@ You can also see  test scripts developed by this tool in [this git repo](https:/
 1. Download ExlJS.zip file from [this link](http://23.236.144.243/VisualTAF/ExlJS.zip)
 2. Extract content of zip file to some folder
 3. Go to that folder and run **ExlJS.exe**
-
+4. Remember to enable macros in excel files in order for magic hotkey to work!
 <!--
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)
 -->
@@ -97,3 +97,5 @@ let me know if you have any questions or want a FREE training session via skype 
 - objectAndDescription
 - reportStep
 - debug
+- executeJSInBrowser
+- maximizeWindow
