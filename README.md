@@ -15,6 +15,7 @@ This tool is designed to enforce **test automation best practices** like reusabl
 - Automatically takes screeenshots upon test failure for easy defect reporting.
 - Automatic **Enterprise Level Reporting** with drill down to step level (no need for you to write any code), you can see exactly what test data was used for each element and what button was clicked. You can mail this test execution report to project stakeholders for visibility, everybody can see what tests have been executed.
 - **!!!New!!!** *Automatic code generation* - just fill in test data in datasheet and press **Ctrl+Shift+G** for the tool to auto generate code for you, this is the  **MAGIC hotkey**, it will create instruction code, repository with web elements and commands to to interact with them. This hotkey will also navigate you from Excel to exact instruction code and from instruction code to exact web element in object repository, so you don't need to strain your eyes and brain searching in code for instruction or web elements.
+- **NEW NEW** API testing is now available!!!
 - **Save up to 70%** on your test automation development and maintenance time.
 - And...It's **FREE** for personal and educational use. Free training is provided to everybody!
 
@@ -36,7 +37,8 @@ You can also see  test scripts developed by this tool in [this git repo](https:/
 1. Download ExlJS.zip file from [this link](http://23.236.144.243/VisualTAF/ExlJS.zip)
 2. Extract content of zip file to some folder
 3. Go to that folder and run **ExlJS.exe**
-4. Remember to enable macros in excel files in order for magic hotkey to work!
+4. There are demo tests when you open ExlJS, you can run and learn from them
+### Notice Remember to enable macros in excel files in order for magic hotkey to work!
 <!--
 [![Main Screen](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://23.236.144.243/VisualTAFScreenshots/runtemplatecontextmenu.png)
 -->
@@ -101,3 +103,9 @@ let me know if you have any questions or want a FREE training session via skype 
 - debug
 - executeJSInBrowser
 - maximizeWindow
+
+## Helper instructions/keywords
+- Util.startWebBrowser
+- Util.closeWebBrowser
+- Util.sendAndVerifyApiRequest
+- Util.debug
