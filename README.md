@@ -1,3 +1,13 @@
+# Installation
+1. Download ExlJS.zip file from [this link](http://licserver.hopto.org/VisualTAF/ExlJS.zip)
+2. Extract content of zip file to some folder
+3. Go to that folder and run **ExlJS.exe**
+4. There are demo tests included in ExlJS (expand "Test Sets" node in ExlJS GUI to see them), you can run them and learn from them.
+5. Sometimes macros in excel are not enabled by default, so enable them for magic hotkey to work!!
+<!--
+[![Main Screen](http://licserver.hopto.org/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://licserver.hopto.org/VisualTAFScreenshots/runtemplatecontextmenu.png)
+-->
+
 # ExlJS (the tool that does most of the work for you in data-driven test automation)
 ExlJS is a powerful standalone GUI tool for rapid and super easy creation of **data-driven** test automation scripts. It's data-driven out of the box, no need to write code for fetching test data. ExlJS allows crafting of test cases in EXCEL by *copy/pasting* reusable instructions and adding reference to test data in another sheet in the same Excel file.<br/> It gives you great organizational structure and visibility for your test cases, built-in shortcuts make test case automation straight forward (top to bottom approach), smooth and **fun**, you will waste less brain energy on automation and have more energy for yourself and as a result feeling more **happy** in your life.<br/>
 ![](http://licserver.hopto.org/VisualTAFScreenshots/happy-family.jpg)
@@ -33,15 +43,6 @@ This tool is designed to enforce **test automation best practices** like reusabl
 -->
 You can also see  test scripts developed by this tool in [this git repo](https://github.com/alaserm/DateParserAutomation)<br/>
 
-# Installation
-1. Download ExlJS.zip file from [this link](http://licserver.hopto.org/VisualTAF/ExlJS.zip)
-2. Extract content of zip file to some folder
-3. Go to that folder and run **ExlJS.exe**
-4. There are demo tests included in ExlJS (expand "Test Sets" node in ExlJS GUI to see them), you can run them and learn from them.
-5. Sometimes macros in excel are not enabled by default, so enable them for magic hotkey to work!!
-<!--
-[![Main Screen](http://licserver.hopto.org/VisualTAFScreenshots/runtemplatecontextmenu.png)](http://licserver.hopto.org/VisualTAFScreenshots/runtemplatecontextmenu.png)
--->
 
 *For technical support and questions contact **alaserm@yahoo.com**<br>
 let me know if you have any questions or want a FREE training session via skype or zoom.*
